@@ -117,9 +117,9 @@ function getOutput(name) {
   return 'Who are you';
 }
 
-getOutput('Arya'); 
-getOutput('John'); // what will be the output
-getOutput(); // what will be the output
+getOutput('Arya'); // `You are arya`
+getOutput('John'); // `You are John`
+getOutput(); // 'Who are you'
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
