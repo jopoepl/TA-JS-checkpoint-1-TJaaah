@@ -77,7 +77,16 @@ alert(userName); // John
 
 8. What is a Anonymous Function give example of three functions.
 
-
+Anonymous functions are functions without any names. They can be used as arguments for a variable. We can use Anonymous functions while writing function expressions.
+Eg - var anonFunction1 = function (name) {
+alert (name)
+}
+let anonFunction2 = function (a,b) {
+return (a + b)
+}
+let anonFunction3 = function (color) {
+return (color == `red`)
+}
 
 
 9. Can function declaration be a Anonymous Function? Explain
